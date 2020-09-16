@@ -79,34 +79,34 @@ body:
 ## Models
 1. This is the 1st element of the list
 2. This is the 2nd element of the list
-```
-User model
-- username: String, required
-- first name: String, required
-- last name: String, required
-- password: String, required
-- image: String
-- pets: Array ObjectID
-```
+    ```
+    User model
+    - username: String, required
+    - first name: String, required
+    - last name: String, required
+    - password: String, required
+    - image: String
+    - pets: Array ObjectID
+    ```
 3. This is the 3rd element of the list
 4. This is the 4th element of the list
-```
-Pet model
-- name: String, required
-- owner: ObjectID
-- type: String, required
-- breed: String, required
-- comments: String
-- birth date: Date, required
-- appointments: Array ObjectID
-```
+    ```
+    Pet model
+    - name: String, required
+    - owner: ObjectID
+    - type: String, required
+    - breed: String, required
+    - comments: String
+    - birth date: Date, required
+    - appointments: Array ObjectID
+    ```
 5. This is the 5th element of the list
-```
-Appointment model
-- title: String, required
-- vet: String, required
-- pet: ObjectID, required
-- date: Date, required
-- time: Date, required
-- comments: String
-```
+    ```
+    Appointment model
+    - title: String, required
+    - vet: String, required
+    - pet: ObjectID, required
+    - date: Date, required
+    - time: Date, required
+    - comments: String
+    ```
