@@ -1,6 +1,6 @@
 {
   "name": "@x8a/mongo-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a test",
   "main": "index.js",
   "scripts": {
